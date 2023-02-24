@@ -230,15 +230,161 @@
 # h = 2 + 2 == 4 and not 2 + 2 == 5 and 2*2 == 2 + 2 #true+false+falses=true
 # print(h)
 
-#if else conditions statements
+#if statements
 # name = 'anand'
-# password = 'anand@997758'
+# passwd = 'anand@123'
+ 
 # if name == 'anand':
 #     print('access granted')
-# else: 
-#     print('your user name is incorrect please try again')
 
-# if password == 'anand997758':
-#     print('access granted')
 # else:
-#     print('your password is incorrect, please try again')
+#     print('user name is incorrect, please try again')
+
+# if passwd == 'anand@123':
+#     print('connected successful')
+# else:
+#     print('your passwd is incorrect')
+
+#if statement
+#=================
+# name = 'anand'
+# if name == 'anand':
+#     print('Hi', 'anand')
+
+#if else statement
+# name = "anand1"
+# if name == "anand12":
+#     print("hi", 'welcome')
+# else:
+#     print("sorry", 'try again')
+
+#elif statement
+# name = 'alice'
+# age = 5
+# if name == 'allice':
+#     print('hi', 'anand')
+# elif age < 5:
+#     print('hello', 'kid come here')
+# elif age > 4:
+#     print('hi', 'granee say me hello')
+
+#multiple ifs
+# name = 'anand'
+# name1 = 'anand1'
+# name2 = 'anand2'
+# if name == 'anand':
+#     print('hi','anand')
+# if name1 == 'anand1':
+#     print('hi','anand1')
+# if name2 == 'anand2':
+#     print('hi','anand2')
+
+# name = 'Carol'
+# age = 3000
+# if name == 'Alice':
+#  print('Hi, Alice.')
+# elif age < 12:
+#  print('You are not Alice, kiddo.')
+# elif age > 15000:
+#  print('You are not Alice, grannie.')
+# elif age > 2000:
+#  print('Unlike you, Alice is not an undead, immortal vampire.')
+
+#using if, elif, and else statements
+# name = 'anand'
+# age = 3000
+# if name == 'anand':
+#     print('hi','anand')
+# elif age > 400:
+#     print('hi','your not a little kind your are a big granee')
+
+# else:
+#     print('this total info is wrong, please try access right thing')
+
+#while loop statement
+# spam = 0
+# if spam >5:
+#     print('hello','world')
+#     spam = spam+1
+
+# spam = 0
+# while spam > 5:
+#     print('hi','anand')
+#     spam = spam + 1
+
+# name = ''
+# while name != 'anand':
+#     print('please type your name')
+#     name = input()
+# print("Thank you")
+
+# name = ""
+# while name != 'myname':
+#     print('please enter your name')
+#     name = input()
+# print("Thank you")
+
+# i = 10
+# while i > 0:
+#     print(i)
+#     i = i - 1
+
+# for i in range (0,19):
+#     print(i)
+
+# name = 'anand'
+# while name == 'anand':
+#     print('hi','anand')
+#     break
+# print('tell  me anand')
+
+# while True:
+#     print('please enter your name')
+#     name = input()
+#     if name != 'myname':
+#         break
+# print('thank you')
+
+# while True:
+#     print('who are you')
+#     name = input()
+#     if name != 'joe':
+#         continue
+#     print('hello joe, please type your password. (it is a fish)')
+#     password = input()
+#     if password == 'swardfish':
+#         break
+# print('access granted')
+
+# while True:
+#     print('who are you')
+#     name = input()
+#     if name != 'jay':
+#         continue
+#     print('hi jay, please tell me your password(it is public)')
+#     password = input()
+#     if password == 'publish':
+#         break
+# print('access granted')
+
+# a = (42 > 41) and (44 < 98) #true+true=true
+# print(a)
+
+# b = (32 < 23) and (95 > 91) #false+true=false
+# print(b)
+
+# c = (92 > 90) or (97 < 96) #true+flase=true
+# print(c)
+
+name = ""
+while not name:
+    print('enter your name')
+    name = input()
+print('how many guests you have')
+numOfGuestes = int(input())
+if numOfGuestes:
+        print('be sure to enough room for all your guests')
+print('done')
+
+
+
